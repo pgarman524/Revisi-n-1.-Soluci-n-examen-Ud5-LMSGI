@@ -3,25 +3,18 @@
     <xsl:template match="/">
         <html>
             <body>
-                <h1>Mi blioteca</h1>
+                <p>Nombre y apellidos: Pablo García Mangana</p>
 
-                <table>
-                    <tr bgcolor="#887788">
-                        <th>Título</th>
-                        <th>Autor</th>
-                    </tr>
-                    <xsl:for-each select="libreria/libro">
-                        <tr>
-                            <td>
-                                <xsl:value-of select="titulo" />
-                            </td>
-                            <td>
-                                <xsl:value-of select="autor" />
-                            </td>
-                        </tr>
-                    </xsl:for-each>
 
-                </table>
+
+<p>* TCP/IP Illustrated - "Addison-Wesley" (2002)</p>
+<p>* Advanced Programming in the Unix Enviorenment - "Addison-Wesley" (2004)</p>
+<p>*  Data on the Web (2006)</p>
+             
+                   
+                    
+
+               
             </body>
         </html>
     </xsl:template>
